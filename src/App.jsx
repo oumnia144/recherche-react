@@ -172,7 +172,7 @@ function App() {
           text-align: center;
           padding: 12px;
           border-radius: 10px;
-          background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+          background: linear-gradient(135deg, #3db5c8, #b522b5);
           border-left: 4px solid #2a5298;
         }
         
@@ -217,7 +217,7 @@ function App() {
         }
         
         li {
-          background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+          background: linear-gradient(135deg, #c31f9a, #3370ad);
           padding: 14px 18px;
           border-radius: 12px;
           margin-bottom: 10px;
@@ -231,21 +231,6 @@ function App() {
           transform: translateX(5px);
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
         }
-        
-        li::before {
-          content: '🍎';
-          margin-right: 12px;
-          font-size: 18px;
-        }
-        
-        .fruit::before {
-          content: '🍎';
-        }
-        
-        .legume::before {
-          content: '🥦';
-        }
-        
         .counter {
           margin-top: 20px;
           text-align: center;
